@@ -14,6 +14,7 @@ body {
   max-width: 1280px;
   padding: 0 25px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 header {
@@ -202,7 +203,7 @@ header {
 
 .menu {
   background: #fff;
-  z-index: 20;
+  z-index: 150;
   position: absolute;
   display: none;
   top: 0;
@@ -865,13 +866,15 @@ header {
     max-width: 285px;
   }
 }
-
+.wrapper form{
+  padding: 0;
+}
 form {
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
   margin-bottom: 55px;
-  padding: 0 18px;
+  width: 100%;
   span {
     padding: 20px 40px;
     font-size: 19px;
@@ -1304,6 +1307,15 @@ footer {
       margin: 50px 20px 15px 0;
     }
   }
+  .cart{
+    .cart__tittle{
+      white-space: nowrap;
+    }
+    left: 0;
+    .item-right{
+      padding-right: 15px;
+    }
+  }
 }
 
 
@@ -1450,7 +1462,12 @@ footer {
     padding: 0 15px !important;
   }
   //////////
+  //form.wrapper{
+  //  padding: 0;
+  //}
   form {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 35px;
     padding: 0 7px;
     span {
@@ -1559,6 +1576,14 @@ footer {
       img{
         max-width: 169px ;
       }
+    }
+  }
+  .menu__search {
+    input {
+      width: 204px;
+      font-size: 14px !important;
+      padding: 10px 32px 10px 13px !important;
+      line-height: 1;
     }
   }
 }
