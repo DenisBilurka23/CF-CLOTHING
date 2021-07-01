@@ -801,7 +801,8 @@ form input[type=text] {
   letter-spacing: 0.69px;
   color: #393939;
 }
-form input[type=submit] {
+form button {
+  border-radius: 0;
   font-size: 19px;
   font-weight: 400;
   background: #d0d0d0;
@@ -1143,7 +1144,7 @@ footer .footer__sm a {
     text-align: center;
     letter-spacing: 0.91px;
   }
-  form input[type=submit] {
+  form button {
     display: block;
     width: 100%;
     padding: 15px 0 13px 0;
@@ -1362,7 +1363,7 @@ footer .footer__sm a {
   form input[type=text]:first-of-type {
     margin-right: 3px;
   }
-  form input[type=submit] {
+  form button {
     font-size: 15px;
     padding: 11px 24px 10px 27px;
     box-shadow: 2px 4px 0 rgba(20, 21, 24, 0.75);
