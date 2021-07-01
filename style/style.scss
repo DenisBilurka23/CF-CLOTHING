@@ -891,7 +891,7 @@ form {
       left: 100%;
       top: 0;
       bottom: 0;
-      border: 36px solid transparent;
+      border: 33px solid transparent;
       border-left: 17px solid #000000;
     }
   }
@@ -1461,10 +1461,6 @@ footer {
     width: 730px;
     padding: 0 15px !important;
   }
-  //////////
-  //form.wrapper{
-  //  padding: 0;
-  //}
   form {
     display: flex;
     justify-content: space-between;
@@ -1474,7 +1470,7 @@ footer {
       padding: 11px 20px;
       font-size: 14px;
       letter-spacing: 1.13px;
-      margin-right: 6px;
+      margin-right: 17px;
 
       &:before {
         content: "";
@@ -1492,6 +1488,10 @@ footer {
       width: 200px;
       padding: 11px 0;
       letter-spacing: 0.91px;
+      margin-right: 7px;
+      &:first-of-type{
+        margin-right: 3px;
+      }
     }
 
     input[type=submit] {
